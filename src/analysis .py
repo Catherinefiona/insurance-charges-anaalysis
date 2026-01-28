@@ -29,5 +29,33 @@ print("\nUnique values:")
 print("sex:", df["sex"].unique())
 print("smoker:", df["smoker"].unique())
 print("region:", df["region"].unique())
+print("\nAverage insurance charge:")
+print(df["charges"].mean())
 
+print("\nMedian insurance charge:")
+print(df["charges"].median())
+
+print("\nMinimum and maximum charges:")
+print(df["charges"].min(), df["charges"].max())
+
+# Charges by smoker status
+smoker_charges = df.groupby("smoker")["charges"].mean()
+
+print("\nAverage charges by smoker status:")
+print(smoker_charges)
+
+print("\nAverage charges by sex:")
+print(df.groupby("sex")["charges"].mean())
+
+print("\nAverage charges by region:")
+print(df.groupby("region")["charges"].mean())
+
+df["age_band"] = pd.cut(
+    df["age"],
+    bins=[0, 18, 30, 45, 60, 100],
+    labels=["0-18", "19-30", "31-45", "46-60", "60+"]
+)
+
+print("\nAverage charges by age band:")
+print(df.groupby("age_band")["charges"].mean())
 
