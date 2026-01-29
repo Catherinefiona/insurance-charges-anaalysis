@@ -16,5 +16,17 @@ The analysis is done using Python and is intended to demonstrate data analysis, 
 - Pandas
 - Matplotlib / Seaborn
 - GitHub Codespaces
+  ## Key Visual Insights
+
+### Smoking Status vs Insurance Charges
+![Smoking vs Charges](outputs/smoker_vs_charges.png)
+
+### Age vs Insurance Charges
+![Age vs Charges](outputs/age_vs_charges.png)
+
+### BMI vs Insurance Charges
+![BMI vs Charges](outputs/bmi_vs_charges.png)
+
+Commit again:
 
 ## Project Structure# insurance-charges-anaalysis 
