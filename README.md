@@ -27,5 +27,24 @@ The analysis is done using Python and is intended to demonstrate data analysis, 
 ### BMI vs Insurance Charges
 ![BMI vs Charges](outputs/bmi_vs_charges.png)
 
+## Key Performance Indicators (KPIs)
 
+The following KPIs were used to assess the drivers of medical insurance charges:
+
+- **Average Insurance Charge**  
+  Mean cost across all policyholders. Used as a baseline for comparison.
+
+- **Median Insurance Charge**  
+  Reduces the effect of extreme high-cost cases.
+
+- **Smoking Cost Differential**  
+  Difference in average charges between smokers and non-smokers.  
+  This emerged as the strongest cost driver.
+
+- **Age-Based Cost Gradient**  
+  Average charges by age band to observe how risk and cost increase with age.
+
+- **BMI Risk Indicator**  
+  Relationship between BMI levels and insurance charges to identify high-risk profiles.
+  
 ## Project Structure# insurance-charges-anaalysis 
