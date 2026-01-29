@@ -46,5 +46,4 @@ The following KPIs were used to assess the drivers of medical insurance charges:
 
 - **BMI Risk Indicator**  
   Relationship between BMI levels and insurance charges to identify high-risk profiles.
-  
-## Project Structure# insurance-charges-anaalysis 
+ 
