@@ -59,7 +59,6 @@ df["age_band"] = pd.cut(
 print("\nAverage charges by age band:")
 print(df.groupby("age_band")["charges"].mean())
 
-
 "EDA done"
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -74,14 +73,4 @@ plt.ylabel("Charges")
 
 plt.tight_layout()
 plt.savefig("outputs/smoker_vs_charges.png")
-plt.close()
-
-plt.figure()
-sns.scatterplot(x="age", y="charges", data=df)
-plt.title("Insurance Charges by Age")
-plt.xlabel("Age")
-plt.ylabel("Charges")
-
-plt.tight_layout()
-plt.savefig("outputs/age_vs_charge.png")
 plt.close()
