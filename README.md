@@ -27,6 +27,5 @@ The analysis is done using Python and is intended to demonstrate data analysis, 
 ### BMI vs Insurance Charges
 ![BMI vs Charges](outputs/bmi_vs_charges.png)
 
-Commit again:
 
 ## Project Structure# insurance-charges-anaalysis 
