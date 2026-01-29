@@ -85,3 +85,13 @@ plt.ylabel("Charges")
 plt.tight_layout()
 plt.savefig("outputs/age_vs_charge.png")
 plt.close()
+
+plt.figure()
+sns.scatterplot(x="bmi", y="charges", data=df)
+plt.title("Insurance Charges by BMI")
+plt.xlabel("BMI")
+plt.ylabel("Charges")
+
+plt.tight_layout()
+plt.savefig("outputs/BMI_vs_charges")
+plt.close()
