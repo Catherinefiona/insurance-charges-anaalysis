@@ -46,4 +46,10 @@ The following KPIs were used to assess the drivers of medical insurance charges:
 
 - **BMI Risk Indicator**  
   Relationship between BMI levels and insurance charges to identify high-risk profiles.
+  ## Excel Dashboard
+An interactive Excel dashboard analysing medical insurance charges by age, BMI, smoking status, sex and region.
+
+📊 Download the dashboard:
+[Medical_Insurance_Charges_Dashboard.xlsx](Medical_Insurance_Charges_Dashboard.xlsx)
+
  
